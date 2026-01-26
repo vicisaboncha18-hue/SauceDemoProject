@@ -1,0 +1,34 @@
+PROYECTO SAUCEDEMO SERENITY
+Proyecto de automatización usando:
+- Java
+- Serenity BDD
+- Cucumber
+- Screenplay
+- Gradle
+
+##Configuracion Inicial
+-Antes de ejecutar el proyecto, asegurese de que cuente con Java JDK 25
+
+## Ejecutar pruebas y generar reporte
+-para poder ejecutar las pruebas desde la terminal:
+-ubicarse en la carpeta raiz del proyecto y ejecutar el siguiente comando:
+./gradlew clean test serenityReports
+El reporte se generará en la direccion:
+build/reports/tests/test/index.html
+
+##Para poder ejecutar las pruebas desde el IDE INTELLIJ IDEA:
+-Seleccionar Run/Debug Configurations
+-En la seccion Build and Run:
+-Seleccionar Java SDK 25
+-Seleccionar JavaProjectExample.test
+-Asegurarse que este seleccionada la clase: runners.SauceDemoRunner
+-Click en Advanced Options
+-Seleccionar la Shorten Command Line: JAR Manifest
+-Click Aplicar
+-Click Run.
+
+##Screenshots
+Los Screenshots generados se encuentran en la siguiente dirección:
+target/site/serenity/download
+
+
