@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Inicio de sesion de usuario" skipped="0" tests="4" time="26.83" timestamp="2026-01-25 03:30:43"><testcase name="Login exitoso con credenciales validas"/><testcase name="Intento de login con credenciales invalidas"/><testcase name="El usuario añade un producto al carrito"/></testsuite>
