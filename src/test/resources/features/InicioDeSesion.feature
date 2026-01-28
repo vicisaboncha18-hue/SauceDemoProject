@@ -1,4 +1,4 @@
-/*Descripcion: En esta seccion se detallan los escenarios de pruebas que se van a ejecutar*/
+#Descripcion: En esta seccion se detallan los escenarios de pruebas que se van a ejecutar
 
 @regression @e2e
 Feature: 1. Inicio de sesion de usuario
